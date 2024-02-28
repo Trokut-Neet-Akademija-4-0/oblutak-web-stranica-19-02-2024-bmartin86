@@ -1,0 +1,94 @@
+:root {
+  --green-bg-color : #a9c19c;
+  --lightgreen-bg-color : #edf5ea;
+  --bold-font-size : 1.6rem;
+}
+
+.semi-bold {
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.6rem;
+  letter-spacing: .01em;
+  color: rgb(100, 100, 100);
+}
+
+.category-text {
+  font-size: var(--bold-font-size);
+  font-weight: 900;
+  line-height: 2.2rem;
+}
+
+.green-bg {
+  background-color: var(--green-bg-color);
+}
+
+.header h1 {
+  font-size: 3.4rem;
+}
+
+.subcategory-text {
+  font-size: 2rem;
+}
+
+.header h1,
+.subcategory-text {
+  font-weight: 900;
+  color: var(--green-bg-color);
+  border-bottom: 5px solid var(--green-bg-color);
+}
+
+.product-info-box {
+  background-color: var(--lightgreen-bg-color);
+}
+
+.weight-icon {
+  width: 100px;
+}
+
+.button {
+  background-color: var(--green-bg-color);
+  font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  transition: border .3s smooth, background-color .3s smooth, color .3s smooth;
+}
+
+.button:hover {
+  background-color: rgb(31, 31, 31);
+  color: var(--lightgreen-bg-color);
+}
+
+.header {
+  height: 60vh;
+}
+
+.header > div {
+  height: 100%;
+}
+
+.header div:first-child {
+  flex: 4;
+}
+
+.header div:last-child {
+  flex: 9;
+}
+
+.hero-img {
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.form-row {
+  background-color: var(--green-bg-color);
+}
+
+.form-col {
+  background-color: var(--lightgreen-bg-color);
+}
+
+.txt-sm {
+  font-size: .8em;
+  font-weight: 600;
+}
